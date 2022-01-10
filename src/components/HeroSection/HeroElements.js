@@ -1,4 +1,4 @@
-import { FaHeartBroken } from "react-icons/fa";
+
 import styled from "styled-components";
 import {MdArrowRight, MdArrowForward } from 'react-icons/md';
 

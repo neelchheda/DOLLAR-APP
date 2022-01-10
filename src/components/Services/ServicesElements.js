@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {MdArrowRight, MdArrowForward } from 'react-icons/md';
+
 
 export const ServicesContainer = styled.div`
   height: 800px;

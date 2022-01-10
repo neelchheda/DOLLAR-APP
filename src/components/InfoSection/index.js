@@ -35,10 +35,7 @@ const InfoSection = ({
 
   const [hover,setHover] = useState(false);
 
-  const onHover=()=>{
-    setHover(!hover);
-  } 
-
+ 
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
