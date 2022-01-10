@@ -29,7 +29,7 @@ const Services = () => {
                     <ServicesH2>
                         Virtual Offices
                     </ServicesH2>
-                   <ServicesP>You can access our platform anywhere in the world.</ServicesP>
+                   <ServicesP>You can access our platform anywhere in the world from any device.</ServicesP>
                </ServicesCard>
                <ServicesCard>
                    <ServicesIcon src={Icon3} />
