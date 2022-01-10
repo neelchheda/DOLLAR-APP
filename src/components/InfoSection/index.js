@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { Button } from "../ButtonElements";
 import {
   InfoRow,
@@ -13,6 +13,8 @@ import {
   SubTitle,
   Img,
   ImgWrap,
+  ArrowRight,
+  ArrowForward
 } from "./InfoElements";
 
 const InfoSection = ({
@@ -30,6 +32,13 @@ const InfoSection = ({
   primary,
   dark,dark2
 }) => {
+
+  const [hover,setHover] = useState(false);
+
+  const onHover=()=>{
+    setHover(!hover);
+  } 
+
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -53,7 +62,7 @@ const InfoSection = ({
                   {dark2 ? 1:0}
                   
                   
-                  >{buttonLabel} </Button>
+                  >{buttonLabel} {hover ? <ArrowForward /> : <ArrowRight />}</Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
