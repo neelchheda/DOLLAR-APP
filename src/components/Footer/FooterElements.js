@@ -48,8 +48,8 @@ export const FooterLinksItems = styled.div`
 
 export const FooterLinksTitle = styled.h1`
 font-size:14px;
-margin-bottom:16px
-
+margin-bottom:16px;
+cursor:pointer;
 `;
 
 export const FooterLinks = styled(Link)`

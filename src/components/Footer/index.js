@@ -49,6 +49,24 @@ const Footer = () => {
             </FooterLinksItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+            <SocialMediaWrapper>
+                <SocialMediaLogo to="/">
+                    Neel Chheda
+                </SocialMediaLogo>
+                <WebsiteRights>
+                    Neel Chheda © {new Date().getFullYear()}. All Rights Reserved.
+                </WebsiteRights>
+                <SocialMediaIcons>
+                    <SocialMediaIconsLinks href="/" target="_blank" aria-label="Facebook"><FaFacebook /></SocialMediaIconsLinks>
+                    <SocialMediaIconsLinks href="/" target="_blank" aria-label="Instagram"><FaInstagram /></SocialMediaIconsLinks>
+                    <SocialMediaIconsLinks href="/" target="_blank" aria-label="Youtube"><FaYoutube /></SocialMediaIconsLinks>
+                    <SocialMediaIconsLinks href="/" target="_blank" aria-label="Twitter"><FaTwitter /></SocialMediaIconsLinks>
+                    <SocialMediaIconsLinks href="/" target="_blank" aria-label="Linkedin"><FaLinkedin /></SocialMediaIconsLinks>
+                    <SocialMediaIconsLinks href="/" target="_blank" aria-label="WhatsApp"><FaWhatsApp /></SocialMediaIconsLinks>
+                </SocialMediaIcons>
+            </SocialMediaWrapper>
+        </SocialMedia>
       </FooterWrapper>
     </FooterContainer>
   );
