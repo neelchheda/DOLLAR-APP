@@ -1,5 +1,13 @@
 import React from "react";
 import {
+    FaFacebook,
+    FaInstagram,
+    FaYoutube,
+    FaTwitter,
+    FaLinkedin,
+    FaWhatsapp
+} from 'react-icons/fa';
+import {
   FooterContainer,
   FooterWrapper,
   FooterLinksContainer,
@@ -7,6 +15,12 @@ import {
   FooterLinksItems,
   FooterLinksTitle,
   FooterLinks,
+    SocialMedia,
+    SocialMediaWrapper,
+    SocialMediaLogo,
+    SocialMediaIcons,
+    SocialMediaIconsLinks,
+    WebsiteRights
 } from "./FooterElements";
 
 const Footer = () => {
@@ -63,7 +77,7 @@ const Footer = () => {
                     <SocialMediaIconsLinks href="/" target="_blank" aria-label="Youtube"><FaYoutube /></SocialMediaIconsLinks>
                     <SocialMediaIconsLinks href="/" target="_blank" aria-label="Twitter"><FaTwitter /></SocialMediaIconsLinks>
                     <SocialMediaIconsLinks href="/" target="_blank" aria-label="Linkedin"><FaLinkedin /></SocialMediaIconsLinks>
-                    <SocialMediaIconsLinks href="/" target="_blank" aria-label="WhatsApp"><FaWhatsApp /></SocialMediaIconsLinks>
+                    <SocialMediaIconsLinks href="/" target="_blank" aria-label="Whatsapp"><FaWhatsapp /></SocialMediaIconsLinks>
                 </SocialMediaIcons>
             </SocialMediaWrapper>
         </SocialMedia>
