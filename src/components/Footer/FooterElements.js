@@ -57,10 +57,11 @@ color:#fff;
 text-decoration:none;
 margin-bottom:0.5rem;
 font-size:14px;
+font-weight:100;
 
 &:hover{
     color:#01bf71;
     transition:all 0.2s ease-out;
-
+    font-weight:55;
 }
 `;
